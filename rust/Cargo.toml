@@ -5,8 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "rust_bench_strawberry"
-crate-type = ["cdylib"]
+name = "strwb"
 
 [dependencies]
 pyo3 = { version = "0.16.3", features = ["extension-module"] }
+juniper = "0.10"
+juniper_codegen = "0.15.9"
