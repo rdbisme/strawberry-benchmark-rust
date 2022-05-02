@@ -1,0 +1,1 @@
+A set of benchmarks to see the benefit of writing the routing function in [Strawberry](https://github.com/strawberry-graphql/strawberry/tree/main/strawberry) is worth the hassle of writing it in compiled languages
