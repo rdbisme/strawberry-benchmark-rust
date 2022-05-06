@@ -3,7 +3,7 @@ use strwb::{create_people, Database, Query};
 
 fn main() {
     let database = Database {
-        people: create_people(1000),
+        people: create_people(100000),
     };
     let schema = RootNode::new(Query {}, EmptyMutation::<Database>::new());
     let doc = r#"{
